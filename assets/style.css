@@ -1,0 +1,516 @@
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+body {
+  font-size: 20px;
+  font-family: "roboto";
+  background-image: url("https://www.welovesolo.com/wp-content/uploads/2014/12/p16pstgpo41lcp1tbe1v1v1aai125m9-details.jpg");
+  background-repeat: repeat;
+  background-position: left top;
+  margin-right: 0px;
+  margin-top: 100px;
+
+}
+
+
+header {
+  padding: 21.5px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  border-bottom: solid #C1C3C4;
+  border-bottom-width: 1px;
+  color: #333;
+  background: white;
+  position: fixed; 
+  top: 0;
+  width: 100%;
+}
+
+h1 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	float: left;
+	padding: 22.5px;
+	margin-left: 10%;
+	font-size: 20px;
+	color: white;
+	background: /*#1E9AB9 */ black;
+	border: 2px ;
+    border-radius: 5px;
+}
+
+section {
+  padding: 0px;
+  margin-bottom: 20px;
+  margin-top: 1%;
+  text-align: right;
+  font-size: 15px;
+  font-weight: lighter;
+  font-color: #C1C3C4;
+
+
+}
+
+#nav1 {
+	/*position: relative;
+	top: 20px;
+	right: 175px;
+	*/
+  margin-left: 56%;	
+  float: left;
+  width: 7%;
+  color: grey;
+  font-size: 12px;
+  text-decoration: none;
+  border-right: 1px solid #C1C3C4;
+}
+
+#nav1:hover {
+  margin-left: 56%;	
+  float: left;
+  width: 7%;
+  color: #1E9AB9;
+  font-size: 14px;
+  text-decoration: none;
+  border-right: 1px solid #C1C3C4;
+
+}
+
+#nav2 {
+	/*
+	position: relative;
+	top: 20px;
+	right: 100px;
+	*/
+  float: left;
+  width: 7%;
+  color: grey;
+  font-size: 12px;
+  text-decoration: none;
+  border-right: 1px solid #C1C3C4;
+}
+
+#nav2:hover {
+  float: left;
+  width: 7%;
+  color: #1E9AB9;
+  font-size: 14px;
+  text-decoration: none;
+  border-right: 1px solid #C1C3C4;
+}
+
+#nav3 {
+	/*
+	position: relative;
+	top: 20px;
+	right: 25px;
+	*/
+  float: left;
+  width: 7%;
+  color: grey;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+#nav3:hover {
+float: left;
+  width: 7%;
+  color: #1E9AB9;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+/* The container for the ABOUT ME area */
+.container {
+	float: left;
+	background: white;
+	margin-top: 20px;
+	margin-left: 10%;
+	margin-bottom: 40px;
+	width: 44.5%;
+	border: 2px ;
+    border-radius: 5px;
+}    
+
+#line-about {
+	border-bottom: 2px solid #C1C3C4;
+	margin-top: 0;
+	margin-bottom: 5%;
+	margin-right: 20px;
+	margin-left: 20px;
+	text-align: center;    
+}
+
+h2 {
+	text-align: left;
+	font-weight: bold;
+	margin-left: 0%;
+	padding: 20px;
+	color: #1E9AB9;
+}
+
+#bio-image {
+	float:left;
+	margin-left: 20px;
+	margin-right: 20px;
+	
+    border-radius: 10px;
+	
+}
+
+#aboutmetext {
+	font-size: 14px;
+	text-align: left;
+	line-height: 24px;
+	font-weight: lighter;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-top: 0px;
+	color: #59717E;
+}
+
+.container-connect {
+	float: left;
+	background: white;
+	padding: 25px;
+	margin-top: 20px;
+	margin-right: 10%;
+	margin-left: 40px;
+	font-size: 18px;
+	color: #1E9AB9;
+	border: 2px ;
+    border-radius: 5px;
+	
+}
+
+#line-connect {
+	border-bottom: 1px solid #C1C3C4;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+#gh-image {
+	text-decoration: none;
+	margin: 5px;
+}
+
+#li-image {
+	text-decoration: none;
+	margin: 5px;
+}
+
+#fb-image {
+	text-decoration: none;
+	margin: 5px;
+}
+
+footer {
+	clear: both;
+	background-color: grey;
+	border-top: 10px solid #1E9AB9;
+	margin-top: 10%;
+	color: white;
+	padding: 20px;
+	font-size: 12px;
+
+}
+
+
+
+
+
+/* Contact Form Section for the contact.hmtl page */
+#contactform {
+	text-align: left;
+	line-height: 24px;
+	font-family: "roboto";
+	font-size: 15px;
+	margin-left: 20px;
+	color: grey;
+
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #C1C3C4;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+#nameinput {
+	width: 96%;
+	margin-bottom: 3%;
+	border: .2px solid #C1C3C4;
+    border-radius: 5px;
+    height: 25px;
+    text-align: left;
+/*This is for the input from user */
+    font-family: "roboto";
+    font-size: 14px;
+    color: #1E9AB9;
+	
+	
+}
+
+#lnamelabel {
+	float:right;
+}
+
+#emailinput {
+	width: 96%;
+	margin-bottom: 3%;
+	border: .2px solid #C1C3C4;
+    border-radius: 5px;
+    height: 25px;
+    text-align: left;
+ /*This is for the input from user */
+    font-family: "roboto";
+    font-size: 14px;
+    color: #1E9AB9;
+	
+}
+
+#messageinput {
+	width: 96%;
+	height: 200px;
+	border: .2px solid #C1C3C4;
+    border-radius: 5px;
+    text-align: left;
+    margin-bottom: 20px;
+   /*This is for the input from user */
+    font-family: "roboto";
+    font-size: 14px;
+    color: #1E9AB9;
+}
+
+button{
+	padding: 0px;
+	font-family: "roboto";
+	font-size: 15px;
+	width: 150px;
+	height: 40px;
+	color: white;
+	background-color: #1E9AB9;
+	margin-bottom: 20px;
+	border: .5px solid grey;
+
+}
+button:hover {
+	background-color: grey;
+	font-family: "roboto";
+	font-size: 15px;
+	width: 150px;
+	height: 40px;
+	color: white;
+	margin-bottom: 20px;
+	border: .5px solid grey;
+}
+
+
+/* Portfolio Area */
+#image-1 {
+	float: left;
+	margin-left: 4%;
+
+}
+
+#image-1over{
+	position: relative;
+	top: -70px;
+	right: 0px;
+	text-align: center;
+	background-color: #1E9AB9;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+}
+
+
+#image-2 { 
+	float: left;
+	margin-left: 17%;
+
+}
+
+#image-2over {
+	position: relative;
+	top: -70px;
+	right: 0px;
+	text-align: center;
+	background-color: #1E9AB9;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+
+}
+
+#image-3 {
+	clear: both;
+	float: left;
+	margin-left: 4%;
+}
+
+#image-3over {
+	position: relative;
+	top: -70px;
+	right: 0px;
+	text-align: center;
+	background-color: #1E9AB9;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+
+}
+
+#image-4 {
+	float: left;
+	margin-left: 17%;
+
+}
+
+#image-4over {
+	position: relative;
+	top: -70px;
+	right: 0px;
+	text-align: center;
+	background-color: #1E9AB9;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+
+}
+
+#image-5 {
+	clear:both;
+	float:left;
+	margin-left: 4%;
+
+}
+
+#image-5over {
+	position: relative;
+	top: -70px;
+	right: 0px;
+	text-align: center;
+	background-color: #1E9AB9;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+
+}
+
+#image-6 {
+	float:left;
+	margin-left: 17%;
+
+}
+
+#image-6over {
+	position: relative;
+	top: -70px;
+	right: 0px;
+	text-align: center;
+	background-color: #1E9AB9;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+
+}
+
+
+/* Media Screen Information always at the end of the original*/
+
+@media screen and (max-width: 980px) 
+{
+ #aboutmetext {
+ 	font-size: 100%;
+ }
+
+ img,image-1,image-2,image-3,image-4,image-5,
+ image-6,image-1over,image-2over,image-3over,
+ image-4over,image-5over,image-6over {
+ 	max-width: 100%;
+ 	height: auto;
+ }
+}
+
+@media screen and (max-width: 768px) 
+{
+ #aboutmetext {
+ 	font-size: 75%;
+ }
+
+ img,image-1,image-2,image-3,image-4,image-5,
+ image-6,image-1over,image-2over,image-3over,
+ image-4over,image-5over,image-6over {
+ 	max-width: 50%;
+ 	height: auto;
+ }
+
+
+}
+
+
+@media screen and (max-width: 640px) 
+{
+
+#aboutmetext {
+	font-size: 50%;
+}
+ 	
+ img,image-1,image-2,image-3,image-4,image-5,
+ image-6,image-1over,image-2over,image-3over,
+ image-4over,image-5over,image-6over {
+ 	max-width: 25%;
+ 	height: auto;
+ }
+
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
